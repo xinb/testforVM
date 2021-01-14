@@ -7,3 +7,4 @@
 
 # Install the tools you need to use
 #brew install neofetch
+brew installupx
