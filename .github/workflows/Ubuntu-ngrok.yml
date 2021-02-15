@@ -4,7 +4,8 @@ name: Ubuntu (ngrok)
 
 on:
   workflow_dispatch:
-
+  release:
+    types: [prereleased,released]
 jobs:
   Instance:
     runs-on: ubuntu-20.04
